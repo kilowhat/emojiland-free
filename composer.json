@@ -1,0 +1,43 @@
+{
+    "name": "kilowhat/emojiland-free",
+    "description": "Emoji picker for Flarum",
+    "keywords": [
+        "flarum",
+        "emoji"
+    ],
+    "type": "flarum-extension",
+    "license": "proprietary",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.13 <0.1.0-beta.14",
+        "kilowhat/emojiland-data": "^1.0.0",
+        "ext-json": "*"
+    },
+    "replace": {
+        "kilowhat/emojiland-pro": "*"
+    },
+    "conflict": {
+        "kilowhat/emojiland-pro": "*"
+    },
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kilowhat\\Emojiland\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Emojiland",
+            "icon": {
+                "name": "fas fa-grin-stars",
+                "backgroundColor": "#684ba6",
+                "color": "#fff"
+            }
+        }
+    }
+}

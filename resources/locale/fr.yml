@@ -1,0 +1,27 @@
+kilowhat-emojiland:
+    admin:
+        settings:
+            title: Réglages Emojiland
+            searchEnglish: Chercher en anglais en plus de la langue actuelle
+            searchEnglishHelp: >
+                Cette option permet de trouver des emojis avec leur nom anglais quand le forum utilise une langue différente.
+                Cette option augmente légèrement la taille de la requête.
+            hideFlarumButton: Cacher le bouton du sélecteur d'emojis de Flarum
+            hideFlarumButtonHelp: >
+                Emojiland doit être activé après l'extension Emoji de Flarum pour que l'option fonctionne.
+
+    forum:
+        toolbar:
+            button: Sélecteur d'emojis
+        picker:
+            searchPlaceholder: Chercher
+            clearSearch: Effacer la recherche
+        categories:
+            people: Personnes
+            nature: Nature
+            food: Nourriture
+            activities: Activités
+            travel: Voyage
+            objects: Objets
+            symbols: Symboles
+            flags: Drapeaux
